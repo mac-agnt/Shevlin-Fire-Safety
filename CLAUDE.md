@@ -11,8 +11,9 @@ Pulse is an attached local codebase folder (`Pulse/`), not a GitHub repo. Browse
 - `Pulse/packages/modules/site-visits` — the reusable module fixture
 
 ## Mockup files
-- `Pulse v4 Glass.dc.html` — current direction: dark liquid glass, lime accent, icon rail with
-  hover labels, Home = Helios chat + right rail, plus the real page set (inbox, work queues,
+- `Pulse v4 Glass.dc.html` — Shevlin Fire Safety's Pulse: dark liquid glass on charcoal #232629, fire red
+  #D7261E as the single accent, a Service module (Today's Jobs, Site Walk, Asset Register, Certificates,
+  Renewals), icon rail with hover labels, Home = Helios chat + right rail, plus the real page set (inbox, work queues,
   approvals, directories, universal record page, insights, automations, system health, modules,
   notifications, settings).
 - `Pulse v2.dc.html`, `Pulse v3 Apple.dc.html`, `Pulse v3 Console.dc.html`, `Pulse Home.dc.html` — earlier directions, keep.
