@@ -22,8 +22,8 @@ The business: 4 staff, 86 service contracts, 4,120 extinguishers under managemen
 
 | Pain | Where | What to show |
 |---|---|---|
-| Gary types every extinguisher into WhatsApp | Service › Site Walk | Pick Pass, add a photo, log the last extinguisher, then **Complete job** |
-| An hour per 190 extinguishers of paperwork | Service › Certificates | The pack from the walk lands here, built in 30 seconds |
+| Gary types every extinguisher into WhatsApp | Service › Site Walk | Pick Pass and log the last extinguisher, then **Complete job**. To show a fail: pick Fail, and it asks why before it will log |
+| An hour per 190 extinguishers of paperwork | Service › Certificates | The pack from the walk lands here, built in 30 seconds. **View in FM portal** on the Ashtown pack shows the work order as Tolka sees it |
 | Service dates in a paper notebook | Service › Renewals | 14 due, 6 amber, 2 red, the reminder ready to send |
 | A rescheduled job never reached Gary's diary | Work › Schedules | The 3 diary changes, and **Push** on each |
 | 3,000 extinguishers at one site | Service › Asset Register | Ashtown Hospital Campus: scroll all 3,000 rows |
@@ -49,6 +49,8 @@ Anything else gets: "Everything I reach goes through a registered tool with a de
 ## Watch out for
 
 - **Complete job** only arms once all 26 extinguishers are logged. The demo opens at 25 of 26: pick Pass, then **Log extinguisher 26**.
+- A pass is one tap, no photo. A fail will not log until it has a reason: tap one (Out of date, Discharged, Damaged, Low pressure) or type it. Pick **Foam** as the type first and **Swap for water** is offered. The reason shows in the office table beside the fail.
+- The FM portal view is a mock of Tolka's side. **Upload to FM portal** inside it flips the four documents to Uploaded and the work order to Complete.
 - Completing the walk adds a fourth pack (438 extinguishers, €4,214). Reload the page to get back to 3, 412 and €3,850.
 - The briefing is the 07:00 message, so it keeps the morning's numbers after you complete or send anything.
 - **Old link:** `localhost:8080/Pulse%20v4%20Glass.dc.html` no longer works. Use http://pulse.localhost:8080.
